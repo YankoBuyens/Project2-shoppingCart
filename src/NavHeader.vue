@@ -1,8 +1,17 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" role="navigation">
+  <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #fb8500;" role="navigation">
     <div class="container">
-      <router-link to="/" class="navbar-brand mr-auto">Blue Store</router-link>
+      <router-link to="/" class="navbar-brand mr-auto">Campeones Travel</router-link>
       <ul class="navbar-nav mr-auto">
+        <router-link to="/" tag="li" class="nav-item" active-class="active">
+          <a @click="onHomeClicked" class="nav-link">Home</a>
+        </router-link>
+        <router-link to="/" tag="li" v-if="!isAuthenticated" class="nav-item">
+          <a @click="onPacketsClicked" class="nav-link">Travel packets</a>
+        </router-link>
+        <router-link to="/" tag="li" v-if="!isAuthenticated" class="nav-item">
+          <a @click="onCreateClicked" class="nav-link">Create packet</a>
+        </router-link>
       </ul>
       <ul class="nav navbar-nav">
         <router-link to="/" tag="li" v-if="!isAuthenticated" class="nav-item" active-class="active">
@@ -53,6 +62,15 @@ export default {
     },
     getUserName() {
       return this.$store.state.user.name;
+    },
+    onHomeClicked(){
+      window.location = this.$store.state.endpoints.home;
+    },
+    onPacketsClicked(){
+      window.location = this.$store.state.endpoints.packets;
+    },
+    onCreateClicked(){
+      window.location = this.$store.state.endpoints.create;
     }
   }
 }
