@@ -51,9 +51,9 @@ export default new Vuex.Store({
     setUrls(state) {
       state.endpoints.login = process.env.VUE_APP_AUTH_URL;
       state.endpoints.products = process.env.VUE_APP_PRODUCTS_URL;
-      url = "http://localhost:8000/products";
+      url = "http://campeones-bootstrap-ucllteam14.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/products";
       console.log(process.env);
-      console.log("URL2: " + url)
+      console.log("URL2: " + url);
     }
   },
   actions: { //asynchronous
