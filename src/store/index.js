@@ -1,14 +1,12 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import createPersistedState from "vuex-persistedstate";
 
 Vue.use(Vuex)
 
-const url = "/products";
+var url;
 const headers = { Accept: "application/json" };
 
 export default new Vuex.Store({
-  plugins: [createPersistedState()],
   state: {
     products: [],
     inCart: [],
@@ -19,7 +17,8 @@ export default new Vuex.Store({
       idToken: ""
     },
     endpoints: {
-      login: "/login"
+      login: "http://localhost:3000/login",
+      products: "http://localhost:8000/products"
     },
   },
   getters: {
@@ -49,9 +48,17 @@ export default new Vuex.Store({
       state.user.email =payload.email;
       state.user.idToken =payload.idToken;
     },
+    setUrls(state) {
+      state.endpoints.login = process.env.VUE_APP_AUTH_URL;
+      state.endpoints.products = process.env.VUE_APP_PRODUCTS_URL;
+      url = "http://localhost:8000/products";
+      console.log(process.env);
+      console.log("URL2: " + url)
+    }
   },
   actions: { //asynchronous
     async getProducts(state) {
+      console.log("url: " + url);
       const products = await fetch(url, { headers });
       const prods = await products.json();
       state.commit("setProducts", prods);

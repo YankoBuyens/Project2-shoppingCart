@@ -13,3 +13,4 @@ WORKDIR /code
 COPY --from=build-stage /app/dist .
 EXPOSE 8080:8080
 CMD ["nginx", "-g", "daemon off;"]
+

@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row">
         <Item v-for="product in products"
-        :key="product.id"
-        :item="product"/>
+              :key="product.id"
+              :item="product"/>
       </div>
     </div>
   </div>
