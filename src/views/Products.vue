@@ -1,12 +1,14 @@
 
 <template>
-  <div class="container" style="width: 100%">
+  <div>
     <NavHeader />
-    <div class="container">
-      <div class="row">
-        <Item v-for="product in products"
-              :key="product.id"
-              :item="product"/>
+    <div class="container" style="margin: 0;">
+      <div class="container">
+        <div class="row">
+          <Item v-for="product in products"
+                :key="product.id"
+                :item="product"/>
+        </div>
       </div>
     </div>
     <Footer />

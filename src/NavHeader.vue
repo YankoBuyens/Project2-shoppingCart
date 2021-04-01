@@ -9,7 +9,7 @@
         <router-link to="/products" tag="li" v-if="isAuthenticated" class="nav-item">
           <a @click="onPacketsClicked" style="color: whitesmoke" class="nav-link">Travel packets</a>
         </router-link>
-        <router-link to="/about" tag="li" v-if="isAuthenticated" class="nav-item">
+        <router-link to="/about" tag="li" class="nav-item">
           <a @click="onAboutClicked" style="color: whitesmoke" class="nav-link">About us</a>
         </router-link>
       </ul>
