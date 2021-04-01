@@ -38,7 +38,7 @@
             <div class="team-content">
               <h3>Yanko Buyens</h3>
               <div class="border-team"></div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
+              <p> Yanko is one of our back-end developpers, his team is in charge of maintaining our database.</p>
               <div class="social-icons">
                 <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
                 <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
@@ -53,7 +53,7 @@
             <div class="team-content">
               <h3>Jaison Wullaert</h3>
               <div class="border-team"></div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
+              <p> Jaison is our technical officer and also one of our back-end developpers. He also helped with linking the back-end to the front end.</p>
               <div class="social-icons">
                 <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
                 <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
@@ -68,7 +68,7 @@
             <div class="team-content">
               <h3>Gerben Piot</h3>
               <div class="border-team"></div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
+              <p>Gerben was our quality insurance. He was the one to spot all our little mistakes.</p>
               <div class="social-icons">
                 <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
                 <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
@@ -83,7 +83,7 @@
             <div class="team-content">
               <h3>Brick van Roekel</h3>
               <div class="border-team"></div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
+              <p>Brick was one of the front-end developpers of our website. This team was in charge of the lay-out of our pages.</p>
               <div class="social-icons">
                 <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
                 <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
@@ -98,7 +98,7 @@
             <div class="team-content">
               <h3>Raghav Thapar</h3>
               <div class="border-team"></div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
+              <p>Raghav was our project manager and he was on the front-end team. He pitched our project and created our landing page.</p>
               <div class="social-icons">
                 <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
                 <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
