@@ -19,7 +19,7 @@
       endpoints: {
         login: "http://project-2-shopping-cart-authentication-ucllteam14.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/login",
         products: "http://project-2-springboot-ucllteam14.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/products",
-        about: "http://project-2-springboot-ucllteam14.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/"
+        about: "http://project-2-shopping-cart-ucllteam14.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/about"
       },
     },
     getters: {
