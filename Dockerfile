@@ -5,7 +5,6 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 RUN npm run build
-RUN npm install --save axios
 
 # production stage
 FROM nginx:1.17
