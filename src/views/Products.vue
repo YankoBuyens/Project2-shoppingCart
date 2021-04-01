@@ -2,7 +2,7 @@
 <template>
   <div>
     <NavHeader />
-    <div class="container" style="margin: 0;">
+    <div class="container">
       <div class="container">
         <div class="row">
           <Item v-for="product in products"
