@@ -22,7 +22,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'item',
   props: ['item'],
@@ -49,26 +48,21 @@ export default {
 </script>
 
 <style scoped>
-
 .remain {
   color: #d17581;
 }
-
 .grow {
   width: 90%;
   height: 90%;
   padding: 15px;
   transition: all .2s ease-in-out;
 }
-
 .grow:hover {
   transform: scale(1.1);
 }
-
 .item {
   display: flex;
   content: "";
   padding: 10px 10px;
 }
-
 </style>
