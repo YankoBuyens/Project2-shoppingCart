@@ -18,8 +18,8 @@
             <h1 class="strong">Who we are and<br>what we do</h1>
           </div>
           <div class="col-md-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet. Nulla convallis egestas rhoncus.</p>
+            <p>Get the best of travel packages with Campeone Travels. We work our best for your comfort 24*7. Get the most satisactory and tension free travel tours with us. Give it a try! Pick a location, get the packages!, it's that simple!</p>
+            <p>Don't know where to go but still want to travel? Leave that to us too! Fill out some simple details and let us decide your next wanderlust location!</p>
           </div>
         </div>
       </div>
