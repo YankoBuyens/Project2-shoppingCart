@@ -23,9 +23,9 @@
               {{ getUserName() }}
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" style="color: whitesmoke" href="#">Account Settings</a>
-              <a v-if="isPartner" style="color: whitesmoke" @click="onRegisterClicked" class="dropdown-item" href="#">Register Product</a>
-              <a @click="onLogoutClicked" style="color: whitesmoke" class="dropdown-item">Logout {{ userEmail }}</a>
+              <a class="dropdown-item" style="color: black" href="#">Account Settings</a>
+              <a v-if="isPartner" style="color: black" @click="onRegisterClicked" class="dropdown-item" href="#">Register Product</a>
+              <a @click="onLogoutClicked" style="color: black" class="dropdown-item">Logout {{ userEmail }}</a>
             </div>
           </div>
         </li>
