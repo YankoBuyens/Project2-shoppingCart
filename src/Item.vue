@@ -2,7 +2,7 @@
   <div class="col-sm-4 item">
     <div class="card text-center" >
       <div>
-        <img :src="item.thumbnail_url" alt="" class="card-img-top grow" style="max-height: 250em; max-width: 250em;">
+        <img :src="item.thumbnail_url" alt="" class="card-img-top grow" style="max-height: 450px; max-width: 500px;">
       </div>
       <div class="card-body">
         <h5 class="card-title">{{ item.title }}</h5>
