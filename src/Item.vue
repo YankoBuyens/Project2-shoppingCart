@@ -8,6 +8,10 @@
         <h5 class="card-title">{{ item.title }}</h5>
         <h6 class="card-subtitle mb-2 remain">{{ item.quantity }} left in stock</h6>
         <p class="card-text">{{ item.description | shortDescription }}</p>
+        <p class="card-text">{{item.country}}</p>
+        <p class="card-text">{{item.holidayType}}</p>
+        <p class="card-date">{{item.departureDate}}</p>
+        <p class="card-date">{{item.returnDate}}</p>
         <div class="row">
           <p class="col-6 lead">${{ item.price }}</p>
           <p class="col-6">
