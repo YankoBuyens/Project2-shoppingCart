@@ -1,21 +1,21 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #023047; color: whitesmoke" role="navigation">
+  <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #023047;" role="navigation">
     <div class="container">
-      <router-link to="/" class="navbar-brand mr-auto">Campeones Travel</router-link>
+      <router-link to="/" class="navbar-brand mr-auto" style="color: whitesmoke">Campeones Travel</router-link>
       <ul class="navbar-nav mr-auto">
         <router-link to="/" tag="li" class="nav-item" active-class="active">
-          <a @click="onHomeClicked" class="nav-link">Home</a>
+          <a @click="onHomeClicked" style="color: whitesmoke" class="nav-link">Home</a>
         </router-link>
         <router-link to="/" tag="li" v-if="isAuthenticated" class="nav-item">
-          <a @click="onPacketsClicked" class="nav-link">Travel packets</a>
+          <a @click="onPacketsClicked" style="color: whitesmoke" class="nav-link">Travel packets</a>
         </router-link>
         <router-link to="/" tag="li" v-if="isAuthenticated" class="nav-item">
-          <a @click="onAboutClicked" class="nav-link">About us</a>
+          <a @click="onAboutClicked" style="color: whitesmoke" class="nav-link">About us</a>
         </router-link>
       </ul>
       <ul class="nav navbar-nav">
         <router-link to="/" tag="li" v-if="!isAuthenticated" class="nav-item" active-class="active">
-          <a @click="onLoginClicked" class="nav-link">Login</a>
+          <a @click="onLoginClicked" style="color: whitesmoke" class="nav-link">Login</a>
         </router-link>
         <li v-if="isAuthenticated" class="li-pointer nav-item">
           <div class="dropdown">
@@ -23,9 +23,9 @@
               {{ getUserName() }}
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Account Settings</a>
-              <a v-if="isPartner" @click="onRegisterClicked" class="dropdown-item" href="#">Register Product</a>
-              <a @click="onLogoutClicked" class="dropdown-item">Logout {{ userEmail }}</a>
+              <a class="dropdown-item" style="color: whitesmoke" href="#">Account Settings</a>
+              <a v-if="isPartner" style="color: whitesmoke" @click="onRegisterClicked" class="dropdown-item" href="#">Register Product</a>
+              <a @click="onLogoutClicked" style="color: whitesmoke" class="dropdown-item">Logout {{ userEmail }}</a>
             </div>
           </div>
         </li>
