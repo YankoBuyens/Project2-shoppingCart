@@ -9,7 +9,7 @@
 import NavHeader from "@/NavHeader.vue"
 export default {
   components: {
-    NavHeader
+    NavHeader,
   },
   mounted(){
     this.$store.commit("setUrls");
