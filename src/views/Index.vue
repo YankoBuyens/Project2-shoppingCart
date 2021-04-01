@@ -32,7 +32,7 @@ export default {
   methods: {
     onPacketsClicked(){
       console.log("Index.vue: " + this.$store.state.endpoints.products);
-      window.location = this.$store.state.endpoints.products;
+      window.location = this.$store.state.endpoints.productspage;
 
     },
     onAboutClicked(){

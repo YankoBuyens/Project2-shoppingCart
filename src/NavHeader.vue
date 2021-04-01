@@ -72,8 +72,7 @@ export default {
       window.location = this.$store.state.endpoints.home;
     },
     onPacketsClicked(){
-      console.log("NavHeader.vue: " + this.$store.state.endpoints.products);
-      window.location = this.$store.state.endpoints.products;
+      window.location = this.$store.state.endpoints.productspage;
     },
     onAboutClicked(){
       window.location = this.$store.state.endpoints.about;

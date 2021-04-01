@@ -1,6 +1,7 @@
 
 <template>
   <div class="container">
+    <NavHeader />
     <div class="container">
       <div class="row">
         <Item v-for="product in products"
@@ -8,12 +9,15 @@
               :item="product"/>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Item from "@/Item.vue"
+import NavHeader from "@/NavHeader.vue"
+import Footer from "@/Footer.vue";
 export default {
   name: 'Home',
   computed: {
@@ -22,7 +26,9 @@ export default {
     }
   },
   components: {
-    Item
+    Item,
+    NavHeader,
+    Footer
   }
 }
 </script>

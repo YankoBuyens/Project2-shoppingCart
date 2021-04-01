@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <NavHeader />
     <div class="image-aboutus-banner">
       <div class="container">
         <div class="row">
@@ -110,8 +111,20 @@
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
+
+<script>
+import NavHeader from "@/NavHeader.vue"
+import Footer from "@/Footer.vue";
+export default {
+  components: {
+    NavHeader,
+    Footer
+  }
+}
+</script>
 
 <style scoped>
 /* CTA CSS */
