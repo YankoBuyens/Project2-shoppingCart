@@ -134,24 +134,6 @@ export default {
   color: #fff;
 }
 
-/* Buttons */
-.site-btn {
-  font-size: 14px;
-  padding: 13px 30px;
-  border-radius: 5px;
-  border: 1px solid #b40028;
-  min-width: 200px;
-  display: inline-block;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  color: #b40028;
-  background-color: transparent;
-  transition: all .25s ease-in-out;
-  margin: 10px 0px 10px 0px;
-
-}
-
 .copyright-text p {
   color: #707070;
   margin-top: 18px;
@@ -328,7 +310,7 @@ a {
 i {
   font-style: normal;
   font-size: 42px;
-  text-align: center;
+  text-align: left;
   line-height: 64px;
 }
 

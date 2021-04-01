@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center text-lg-start" style="background-color: #8ECAE6">
+  <footer class="text-center text-lg-start" style="background-color: #8ECAE6; width: 100%">
     <div class="container p-4">
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">

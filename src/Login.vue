@@ -22,7 +22,7 @@ export default {
     else {
       this.$store.commit("logout");
     }
-    this.$router.push("/");
+    this.$router.push("/products");
   }
 };
 </script>

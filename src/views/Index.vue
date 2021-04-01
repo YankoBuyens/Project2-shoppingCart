@@ -4,10 +4,10 @@
       <div id="landing-header">
         <h1 class="mb-3">Campeone Travels</h1>
         <div class="button">
-          <router-link to="/products" tag="li" class="nav-item" active-class="active">
+          <router-link to="/products" tag="li" class="btn btn-md" active-class="active">
             <a @click="onPacketsClicked" style="color: whitesmoke" class="nav-link">Get started</a>
           </router-link>
-          <router-link to="/about" tag="li" class="nav-item" active-class="active">
+          <router-link to="/about" tag="li" class="btn btn-md ms-3" active-class="active">
             <a @click="onAboutClicked" style="color: whitesmoke" class="nav-link">About us</a>
           </router-link>
         </div>
@@ -42,6 +42,10 @@ export default {
 }
 </script>
 <style scoped>
+
+a {
+  list-style-type: none;
+}
 body {
   background-color: black;
   font-family: 'Crimson Text', serif;

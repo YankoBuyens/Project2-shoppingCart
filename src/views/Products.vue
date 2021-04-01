@@ -1,6 +1,6 @@
 
 <template>
-  <div class="container">
+  <div class="container" style="width: 100%">
     <NavHeader />
     <div class="container">
       <div class="row">

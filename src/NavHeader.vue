@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #023047;" role="navigation">
+  <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #023047; width: 100%" role="navigation">
     <div class="container">
       <router-link to="/" class="navbar-brand mr-auto" style="color: whitesmoke">Campeones Travel</router-link>
       <ul class="navbar-nav mr-auto">
