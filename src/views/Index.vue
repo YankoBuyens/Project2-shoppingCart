@@ -31,7 +31,9 @@ export default {
   name: 'Index',
   methods: {
     onPacketsClicked(){
+      console.log("Index.vue: " + this.$store.state.endpoints.products);
       window.location = this.$store.state.endpoints.products;
+
     },
     onAboutClicked(){
       window.location = this.$store.state.endpoints.about;
