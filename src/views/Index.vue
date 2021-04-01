@@ -4,9 +4,12 @@
       <div id="landing-header">
         <h1 class="mb-3">Campeone Travels</h1>
         <div class="button">
-          <button type="button" class="btn btn-md" style="color:white;background-color: #023047">Get Started</button>
-          <button type="button" class="btn btn-md ms-3" style="color:white;background-color: #023047">Log In</button>
-          <button type="button" class="btn btn-md ms-3" style="color:white;background-color: #023047">About Us</button>
+          <router-link to="/products" tag="li" class="nav-item" active-class="active">
+            <a @click="onPacketsClicked" style="color: whitesmoke" class="nav-link">Get started</a>
+          </router-link>
+          <router-link to="/about" tag="li" class="nav-item" active-class="active">
+            <a @click="onAboutClicked" style="color: whitesmoke" class="nav-link">About us</a>
+          </router-link>
         </div>
       </div>
 
@@ -21,3 +24,18 @@
 
   </main>
 </template>
+
+<script>
+export default {
+  components: { },
+  name: 'Index',
+  methods: {
+    onPacketsClicked(){
+      window.location = this.$store.state.endpoints.products;
+    },
+    onAboutClicked(){
+      window.location = this.$store.state.endpoints.about;
+    }
+  }
+}
+</script>

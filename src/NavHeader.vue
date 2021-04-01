@@ -6,10 +6,10 @@
         <router-link to="/" tag="li" class="nav-item" active-class="active">
           <a @click="onHomeClicked" style="color: whitesmoke" class="nav-link">Home</a>
         </router-link>
-        <router-link to="/" tag="li" v-if="isAuthenticated" class="nav-item">
+        <router-link to="/products" tag="li" v-if="isAuthenticated" class="nav-item">
           <a @click="onPacketsClicked" style="color: whitesmoke" class="nav-link">Travel packets</a>
         </router-link>
-        <router-link to="/" tag="li" v-if="isAuthenticated" class="nav-item">
+        <router-link to="/about" tag="li" v-if="isAuthenticated" class="nav-item">
           <a @click="onAboutClicked" style="color: whitesmoke" class="nav-link">About us</a>
         </router-link>
       </ul>
