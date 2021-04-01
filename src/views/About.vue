@@ -113,7 +113,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 /* CTA CSS */
 .cta-padding35 {
   padding: 35px 0 35px;
@@ -136,58 +136,6 @@
   background-color: transparent;
   transition: all .25s ease-in-out;
   margin: 10px 0px 10px 0px;
-
-}
-
-/* Footer */
-.footer {
-  position: relative;
-  background-color: #fff;
-  color: #707070;
-  padding: 55px 0 40px;
-}
-
-.footer h5 {
-  font-size: 18px;
-  font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
-  color: #707070;
-  position: relative;
-  padding-bottom: 16px;
-}
-
-.footer h5:after {
-  content: '';
-  display: block;
-  margin: 5px 0 0;
-  width: 40%;
-  height: 1px;
-  background-color: #fff;
-}
-
-.footer ul {
-  list-style: none;
-  line-height: 2.2em;
-  padding-left: 0px;
-}
-
-.footer ul a {
-  color: #707070;
-;
-}
-
-.footer ul a:hover {
-  color: #274abb;
-;
-  text-decoration: none;
-}
-
-/*footer bottom */
-.footer-bottom {
-  padding-top: 5px;
-  padding-bottom: 15px;
-  border-top: 1px solid rgba(0, 0, 0, 0.09);
-  background: #fff;
 
 }
 
@@ -218,7 +166,6 @@
 }
 
 /* Social Icons */
-
 .social-icons {
 
   margin: 0;

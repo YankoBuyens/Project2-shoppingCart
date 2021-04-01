@@ -41,7 +41,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 body {
   background-color: black;
   font-family: 'Crimson Text', serif;
